@@ -12,7 +12,7 @@
     border-bottom: 3px solid colors.$marrom;
     background-color: colors.$azul2;
 
-    @media (max-width: 640px) {
+    @media (max-width: 767px) {
         padding: 8px;
     }
 
@@ -26,7 +26,7 @@
         align-items: center;
         gap: 8px;
 
-        @media (max-width: 640px) {
+        @media (max-width: 767px) {
             width: 100%;
         }
 
@@ -50,7 +50,7 @@
         color: colors.$branco;
         cursor: pointer;
 
-        @media (max-width: 640px) {
+        @media (max-width: 767px) {
             display: block;
         }
     }
@@ -76,7 +76,7 @@
             display: flex;
             gap: 8px;
 
-            @media (max-width: 640px) {
+            @media (max-width: 767px) {
                 display: none;
                 position: absolute;
                 top: 100%;
