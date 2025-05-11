@@ -1,0 +1,27 @@
+@use 'colors';
+@use 'header';
+@use 'hero';
+@use 'about';
+@use 'partners';
+@use 'social';
+@use 'contacts';
+@use 'footer';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    list-style: none;
+    text-decoration: none;
+    color: colors.$branco;
+}
+
+.container {
+    padding: 5.6vw;
+}
+
+body {
+    background-color: colors.$azul;
+    overflow-x: hidden;
+}

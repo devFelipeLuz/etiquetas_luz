@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas Luz</title>
+    <link rel="icon" href="images/logo_arredondada.png" type="image/png">
+    <link rel="stylesheet" href="../src/styles/main.scss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <header class="header">
+        <img class="header__logo" src="./images/logo_arredondada.png" alt="logo da empresa">
+        <nav class="header__menu">
+            <ul class="header__menu__list">
+                <li class="header__menu__list__item">
+                    <a class="btn-menu active" href="#hero">Home</a>
+                </li>
+                <li class="header__menu__list__item">
+                    <a class="btn-menu" href="#about">Sobre</a>
+                </li>
+                <li class="header__menu__list__item">
+                    <a class="btn-menu" href="#partners">Parceiros</a>
+                </li>
+                <li class="header__menu__list__item">
+                    <a class="btn-menu" href="#social">Redes Sociais</a>
+                </li>
+                <li class="header__menu__list__item">
+                    <a class="btn-menu" href="#contacts">Pedidos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="hero">
+        <div class="container">
+            <img class="hero__logo" src="images/logo.png" alt="logo de empresa Etiquetas Luz">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container" data-aos="fade-left">
+            <img class="about__img" src="./images/etiqueta.png" alt="imagem de etiqueta">
+            <div class="about__content">
+                <h2 class="about__content__title">Sobre a empresa</h2>
+                <p class="about__content__text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam voluptatum, praesentium tenetur
+                    commodi dolorum aspernatur illum dolores temporibus fugiat similique nostrum ullam rem, minima
+                    maxime quis veritatis quaerat incidunt aliquid?
+                    <br>
+                    <br>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam ea architecto, aliquam odio iure,
+                    temporibus ex expedita quod mollitia, earum ad nihil debitis aut. Voluptatem impedit dolor excepturi
+                    earum fuga?
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="partners" id="partners">
+        <div class="container" data-aos="fade-right">
+            <img class="partners__img" src="./images/partners.png" alt="aperto de mãos">
+            <div class="partners__content">
+                <h2 class="partners__title">Alguns de nossos parceiros</h2>
+                <ul class="partners__list">
+                    <li class="partners__list__item">Empresa X</li>
+                    <li class="partners__list__item">Empresa Y</li>
+                    <li class="partners__list__item">Empresa Z</li>
+                    <li class="partners__list__item">Empresa A</li>
+                    <li class="partners__list__item">Empresa B</li>
+                    <li class="partners__list__item">Empresa C</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="social" id="social">
+        <div class="container" data-aos="fade-left">
+            <img class="social__img" src="./images/celular.png" alt="celular">
+            <div class="social__content">
+                <h2 class="social__title">
+                    Acompanhe nossas redes sociais
+                </h2>
+                <div class="social__links">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="images/Insta-Logo.png" alt="Instagram">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/TTKLogo-removebg-preview.png" alt="Tik Tok">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacts" id="contacts">
+        <div class="container" data-aos="fade-right">
+            <img class="contacts__img" src="./images/WhatsApp.png" alt="WhatsApp logo">
+            <div class="contacts__content">
+                <h2 class="contacts__content__title">Entre em contato e faça seu orçamento</h2>
+                <ul class="contacts__content__list">
+                    <li class="contacts__content__list__item">
+                        <a href="#">
+                            <img src="./images/mulher.png" alt="avatar de mulher">
+                        </a>
+                        Vanessa
+                    </li>
+                    <li class="contacts__content__list__item">
+                        <a href="#">
+                            <img src="./images/homem.png" alt="avatar de homem">
+                        </a>
+                        Edson
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <span>&copy; Etiquetas Luz - Todos os direitos reservados</span>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./biblioteca/jquery-3.7.1.min.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>

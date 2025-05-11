@@ -1,0 +1,48 @@
+@use 'colors';
+
+.header {
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    padding: 8px 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid colors.$marrom;
+    background-color: colors.$azul2;
+
+    .active {
+        background-color: colors.$branco;
+        color: purple;
+        border-radius: 8px;
+    }
+
+    &__logo {
+        height: 60px;
+        border-radius: 50%;
+    }
+
+    &__menu {
+
+        &__list {
+            display: flex;
+            gap: 8px;
+
+            &__item {
+
+                a {
+                    padding: 16px;
+                    font-size: 18px;
+                    font-weight: bold;
+
+                    &:hover {
+                        background-color: colors.$branco;
+                        color: purple;
+                        border-radius: 8px;
+                    }
+                }
+            }
+        }
+    }
+}

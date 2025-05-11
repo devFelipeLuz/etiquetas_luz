@@ -1,0 +1,42 @@
+@use 'colors';
+
+.partners {
+
+    .container {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    &__img {
+        height: 400px;
+        width: 600px;
+        border-radius: 8px;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__title {
+        font-size: 32px;
+        margin-bottom: 16px;
+        padding-bottom: 8px;
+        border-bottom: 2px solid colors.$marrom;
+        text-align: center;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+
+        &__item {
+            list-style: disc;
+        }
+    }
+}

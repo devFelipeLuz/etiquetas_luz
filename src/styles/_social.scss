@@ -1,0 +1,49 @@
+@use 'colors';
+
+.social {
+    text-align: center;
+
+    .container {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    &__title {
+        font-size: 32px;
+        margin-bottom: 16px;
+        padding-bottom: 8px;
+        border-bottom: 2px solid colors.$marrom;
+        text-align: center;
+    }
+
+    &__img {
+        height: 400px;
+        width: 600px;
+        border-radius: 8px;
+    }
+
+    &__links {
+
+        ul {
+            display: flex;
+            justify-content: center;
+
+            li {
+                a {
+                    img {
+                        height: 200px;
+                        width: 200px;
+
+                        &:hover {
+                            height: 250px;
+                            width: 250px;
+                            transition: all .5s ease;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}
