@@ -23,7 +23,25 @@
     }
 
     &__logo {
+        margin-top: 64px;
+        margin-bottom: 64px;
         border-radius: 25%;
         height: 400px;
+    }
+
+    @media (max-width: 640px) {
+        display: block;
+
+        &__logo {
+            height: 200px;
+        }
+    }
+
+    @media (max-width: 1024px) {
+        display: block;
+
+        &__logo {
+            height: 200px;
+        }
     }
 }
