@@ -1,7 +1,7 @@
 @use 'colors';
 
 .contacts {
-    padding-top: 64px;
+    padding-top: 100px;
     padding-bottom: 180px;
 
     &__button {
@@ -13,6 +13,14 @@
         font-weight: bold;
         background-color: purple;
         text-align: center;
+
+        &--edson {
+            background-color: rgb(50, 50, 253);
+
+            &:hover {
+                background-color: lightblue;
+            }
+        }
 
         &:hover {
             background-color: rgb(163, 0, 163);
@@ -98,15 +106,16 @@
         }
     }
 
-    @media (max-width: 767px) {
+    @media (max-width: 1024px) {
         .container {
             display: block;
+            text-align: center;
         }
 
         &__img {
-            height: 200px;
-            width: 100%;
-            margin-bottom: 8px;
+            height: 100px;
+            width: 100px;
+            margin-bottom: 12px;
         }
 
         .contacts__content__list__item {
@@ -118,15 +127,16 @@
 
     }
 
-    @media (max-width: 1024px) {
+    @media (max-width: 767px) {
         .container {
             display: block;
             text-align: center;
         }
 
         &__img {
-            height: 300px;
-            margin-bottom: 8px;
+            height: 100px;
+            width: 100px;
+            margin-bottom: 12px;
         }
 
         .contacts__content__list__item {
